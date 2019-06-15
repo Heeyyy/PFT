@@ -19,8 +19,8 @@ def getSaliencyMap(image):
     """
     
     GET SaliencyMap using PFT method
-    using FFT get gray image phase spectrum
-    then IFFT phase spectrum get SaliencyMap
+    using FFT get gray image's phase spectrum
+    then IFFT phase spectrum get SaliencyMap,
     finally normlization SaliencyMap to 0 or 1
     
     input ： image shape == H*W*3
